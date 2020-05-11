@@ -1,1 +1,31 @@
+PODS:
+  - Alamofire (4.9.1)
+  - AlamofireRSSParser (2.2.0):
+    - Alamofire
+  - Charts (3.5.0):
+    - Charts/Core (= 3.5.0)
+  - Charts/Core (3.5.0)
+  - SwiftyJSON (5.0.0)
 
+DEPENDENCIES:
+  - Alamofire (~> 4.4)
+  - AlamofireRSSParser
+  - Charts
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireRSSParser
+    - Charts
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  AlamofireRSSParser: 4feb3c8cedf1fba2759ba30cf37cdf6ba45efd38
+  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 2b29aeed29c2aa315e2e515f1965f18c609a4fb1
+
+COCOAPODS: 1.9.1
