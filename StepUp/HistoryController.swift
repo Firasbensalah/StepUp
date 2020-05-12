@@ -41,9 +41,9 @@ class HistoryController: UIViewController,UITableViewDelegate,UITableViewDataSou
         let mins = Calendar.current.dateComponents([.minute],from: date1!,to:date2!).minute! - ((1440 * index) + (60 * hours))
         let secs = Calendar.current.dateComponents([.second],from: date1!,to:date2!).second! - ((86400 * index) + (3600 * hours) + (60 * mins))
         name.text = arr_addiction_name[indexPath.row]
-        start.text = "From : \(date3)"
+        start.text = "From : \(date4)"
         duration.text = "Duration : \(index) days,\(hours) hours,\(mins) mins,\(secs) secs"
-        end.text = " To : \(date4)"
+        end.text = " To : \(date3)"
        
         return cell!
     }
