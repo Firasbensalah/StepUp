@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var Pass: UITextField!
     var username = ""
     static var session = ""
-    static var port = "http://stepup.eu-4.evennode.com"
+    static var port = "stepupios.eu-4.evennode.com"
     override func viewDidLoad() {
        
         super.viewDidLoad()
