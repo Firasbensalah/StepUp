@@ -35,7 +35,7 @@ class HomeController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd HH:mm:ss"
         let date3 = Date()
-        let modifiedDate = Calendar.current.date(byAdding: .hour, value: -1, to: date3)!
+        let modifiedDate = Calendar.current.date(byAdding: .hour, value: 0, to: date3)!
         let Cdate = formatter.string(from: modifiedDate)
         
         let date2 = formatter.date(from: Cdate)
