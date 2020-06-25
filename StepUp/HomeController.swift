@@ -117,7 +117,7 @@ class HomeController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
             
            
            
-            
+           self.isPaused = false 
         }
         
         deleteAction.backgroundColor = .black
